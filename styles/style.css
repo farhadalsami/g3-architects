@@ -208,7 +208,6 @@ nav li a {
 
 /* Facts Related styles */
 .facts-container {
-    margin-top: 100px;
     margin-bottom: 58px;
 }
 
@@ -344,7 +343,10 @@ nav li a {
         margin: 0 52px;
         text-align: center;
     }
-
+    /* features section related styles */
+    /* .hidden{
+        visibility: hidden;
+    } */
     /* Facts section related styles */
 
     .facts-cards {
@@ -439,7 +441,10 @@ nav li a {
         margin-left: 20px;
         margin-right: 20px;
     }
-
+    /* features section related styles */
+    /* .hidden{
+        visibility: hidden;
+    } */
     /* sponsors related styles */
     .sponsorship-company {
         flex-wrap: wrap;
