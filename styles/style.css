@@ -1,16 +1,32 @@
 /* Work Sans font from google font */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* share styles start*/
+.ntn-primary {
+    color: var(--simple-color);
+    font-size: 20px;
+    font-weight: 600;
+    background-color: var(--brand-color);
+    border: none;
+    padding: 20px 28px;
+}
+
 * {
     margin: 0;
     font-family: "Work Sans", sans-serif;
+}
+/* share styles end*/
+
+.header-section {
+    background-color: #FFF4E7;
+    padding: 20px 0 52px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 240px;
+    padding: 20px 240px;
 }
 
 .nav-title {
@@ -18,20 +34,53 @@ nav {
     font-size: 45px;
     font-weight: 700;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 30px;
     font-size: 18px;
     font-weight: 500;
 }
 
-#no-margin{
+#no-margin {
     margin-right: 0;
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
     color: #424242;
+}
+
+/* Hero area styles */
+.hero-area {
+    margin: 80px 240px 0px 240px;
+}
+
+.hero-area img {
+    width: 100%;
+    margin-top: 32px;
+}
+
+.hero-contant {
+    margin: auto;
+    width: 868px;
+    text-align: center;
+}
+
+.hero-title {
+    color: var(--title-color);
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.hero-desc {
+    color: var(--desc-color);
+    line-height: 26px;
+    font-weight: 500;
+    margin-bottom: 32px;
 }
